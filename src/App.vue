@@ -9,6 +9,12 @@
 	<a href="#/animated">
 		<button class="layui-btn">animated页面</button>
 	</a>
+	<a href="#/drag">
+		<button class="layui-btn layui-btn-warm">animated页面</button>
+	</a>
+	<a href="#/layer">
+		<button class="layui-btn layui-btn-primary">layer页面</button>
+	</a>
 	<router-view />
   </div>
 </template>
