@@ -4,7 +4,7 @@
 		<button class="layui-btn layui-btn-primary">home页面</button>
 	</a>
 	<a href="#/about">
-		<button class="layui-btn">about页面</button>
+		<button class="layui-btn">组件没动画</button>
 	</a>
 	<a href="#/animated">
 		<button class="layui-btn">animated页面</button>
@@ -13,7 +13,7 @@
 		<button class="layui-btn layui-btn-warm">animated页面</button>
 	</a>
 	<a href="#/layer">
-		<button class="layui-btn layui-btn-primary">layer页面</button>
+		<button class="layui-btn layui-btn-primary ">layer页面</button>
 	</a>
 	<router-view />
   </div>

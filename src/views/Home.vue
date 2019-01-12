@@ -1,7 +1,7 @@
 <template>
   <div class="home">
       <div>
-          <p>我是厚么页面m</p>
+          <p>我是home页面</p>
       </div>
   </div>
 </template>
