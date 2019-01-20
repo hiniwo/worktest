@@ -7,10 +7,6 @@ const animated = resolve => require(['@/views/animated'], resolve);
 const drag = resolve => require(['@/views/drag'], resolve);
 const layer = resolve => require(['@/views/layer'], resolve);
 const css = resolve => require(['@/views/css3'], resolve);
-
-
-
-
 export default new Router({
 	routes : [
 		{
