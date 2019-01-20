@@ -15,12 +15,18 @@
 	<a href="#/layer">
 		<button class="layui-btn layui-btn-primary ">layer页面</button>
 	</a>
+	<a href="#/css">
+	<button class="layui-btn layui-btn-primary ">css3页面</button>
+	</a>
 	<router-view />
   </div>
 </template>
 <script>
 	export default {
-	
+		data(){
+			return {
+			}
+		}
 	}
 </script>
 

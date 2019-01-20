@@ -60,11 +60,11 @@
 					//用鼠标的位置减去鼠标相对元素的位置，得到元素的位置
 					let left = e.clientX - disX;
 					let top = e.clientY - disY - (n-1)*100;
-					
+
 					//绑定元素位置到positionX和positionY上面
 					this.positionX = top;
 					this.positionY = left;
-					
+
 					//移动当前元素
 					odiv.style.left = left + 'px';
 					odiv.style.top = top + 'px';
@@ -74,8 +74,8 @@
 					document.onmouseup = null;
 				};
 			}
-			
-		
+
+
 		}
 	}
 </script>
@@ -90,6 +90,7 @@
 			width : 100px;
 			height: 100px;
 			background-color: #ff5669;
+
 		}
 	ul{
 		position: relative;

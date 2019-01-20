@@ -6,6 +6,8 @@ const about = resolve => require(['@/views/About'], resolve);
 const animated = resolve => require(['@/views/animated'], resolve);
 const drag = resolve => require(['@/views/drag'], resolve);
 const layer = resolve => require(['@/views/layer'], resolve);
+const css = resolve => require(['@/views/css3'], resolve);
+
 
 
 
@@ -35,6 +37,11 @@ export default new Router({
 			path: '/layer',
 			name: 'layer',
 			component: layer,
+		},
+		{
+			path: '/css',
+			name: 'css',
+			component: css,
 		},
 		{
 			path: "*",
