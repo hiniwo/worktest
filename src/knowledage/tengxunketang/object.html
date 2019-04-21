@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script>
+		// 创建对象的方式
+		//使用对象定义
+		var obj = new Object();
+		obj.name = 'wjoj';
+
+		//使用字面量定义
+		var obj2 = {};
+
+		//字面量混合
+		var obj3 = {
+			name : 'lilianjie',
+			todo : function(){
+				console.log('hhh');
+			}
+		}
+
+		//构造函数来创建对象
+		function Person(name){
+			this.name = name
+		}
+
+		var person = new Person('libai');
+
+		//函数声明，和函数表达是的区别
+		function add(a  , b)｛
+			return  a + b;
+		｝
+
+		var add2 = function(a , b){
+			return a + b;
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
